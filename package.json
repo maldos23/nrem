@@ -3,6 +3,10 @@
   "type": "module",
   "version": "0.0.2",
   "description": "Node Registry Easy Manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maldos23/nrem.git"
+  },
   "main": "index.js",
   "scripts": {
     "release": "standard-version"
