@@ -1,11 +1,11 @@
 {
   "name": "nrem",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<div id=\"top\"></div> <!-- *** Thanks for checking out the Best-README-Template. If you have a suggestion *** that would make this better, please fork the repo and create a pull request *** or simply open an issue with the tag \"enhancement\". *** Don't forget to give the project a star! *** Thanks again! Now go create something AMAZING! :D -->",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "author": "maldos23",
   "license": "MIT",
@@ -15,5 +15,8 @@
     "figlet": "1.8.0",
     "inquirer": "12.5.0",
     "joi": "17.13.3"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
