@@ -1,3 +1,5 @@
+[![Run Tests](https://github.com/maldos23/nrem/actions/workflows/run-tests.yml/badge.svg)](https://github.com/maldos23/nrem/actions/workflows/run-tests.yml)
+
 # 🚀 NREM - Node Registry Easy Manager
 
 NRM is a CLI tool to manage `.npmrc` files easily and efficiently. This README describes the available commands and how to use them.

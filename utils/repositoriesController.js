@@ -70,7 +70,7 @@ export class RepositoriesController {
 
         if (!this.fileExists(fileName)) {
             this.displayWarningMessage(fileName);
-            process.exit(1);
+            throw new Error(`The file ${fileName}.npmrc doesn't exist.`);
         }
 
         return this.formatFileName(fileName);
